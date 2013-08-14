@@ -160,8 +160,6 @@ You can change `5-4-stable` to `master` if you want the *bleeding edge* version,
 
 ## Configure it
 
-    cd /home/git/gitlab
-
     # Copy the example GitLab config
     sudo -u git -H cp config/gitlab.yml.example config/gitlab.yml
 
@@ -226,8 +224,6 @@ Make sure to edit both `gitlab.yml` and `unicorn.rb` to match your setup.
     sudo -u git -H chmod o-rwx config/database.yml
 
 ## Install Gems
-
-    cd /home/git/gitlab
 
     sudo gem install charlock_holmes --version '0.6.9.4'
 
